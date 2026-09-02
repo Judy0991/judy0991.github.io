@@ -20,14 +20,14 @@ cv:
     Education:
       - institution: University of Pennsylvania
         location: Philadelphia, PA
-        area: Applied Mathematics and Computational Science · GPA 3.78/4.00
+        area: Applied Mathematics and Computational Science
         studyType: Master of Arts
         start_date: 2025
         end_date: Present
 
       - institution: Beijing Normal University
         location: Beijing, China
-        area: Mathematics and Applied Mathematics · GPA 86.61/100
+        area: Mathematics and Applied Mathematics
         studyType: Bachelor of Science
         start_date: 2020
         end_date: 2024
@@ -36,7 +36,7 @@ cv:
 
       - institution: University of California, Berkeley
         location: Berkeley, CA
-        area: Summer Session · GPA 3.85/4.00
+        area: Summer Session
         studyType: Visiting Student
         start_date: 2024
         end_date: 2024
