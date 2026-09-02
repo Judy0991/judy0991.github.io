@@ -55,6 +55,16 @@ outside my academic work. Each piece is designed and assembled by hand.
   </figure>
 
   <figure class="gallery-item">
+    <a href="{{ '/assets/img/gallery/summer-mango-ice-cream-cake.jpg' | relative_url }}">
+      <img src="{{ '/assets/img/gallery/summer-mango-ice-cream-cake.jpg' | relative_url }}" alt="A handmade beaded summer mango ice cream cake" loading="lazy">
+    </a>
+    <figcaption>
+      <span class="gallery-title-zh">夏日芒果冰激凌蛋糕 🥭</span>
+      <span class="gallery-title-en">Summer Mango Ice Cream Cake</span>
+    </figcaption>
+  </figure>
+
+  <figure class="gallery-item">
     <a href="{{ '/assets/img/gallery/ramune-cake.jpg' | relative_url }}">
       <img src="{{ '/assets/img/gallery/ramune-cake.jpg' | relative_url }}" alt="A handmade beaded Ramune cake" loading="lazy">
     </a>
