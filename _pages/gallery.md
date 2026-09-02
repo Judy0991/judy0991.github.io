@@ -9,9 +9,9 @@ nav_order: 3
 
 Research asks for patience with difficult questions; beadwork asks for patience
 with tiny details. I make miniature desserts from beads as a creative practice
-outside my academic work. Each piece is designed and assembled by hand.
+outside my academic work.
 
-<p class="gallery-signature">Designed and handcrafted by Yueqi Jiang (姜月琦).</p>
+Handcrafted by Yueqi Jiang.
 
 <div class="gallery-grid">
   <figure class="gallery-item">

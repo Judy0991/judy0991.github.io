@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-Hello! I am **Yueqi Jiang**, a master's student in Applied Mathematics and
+Hello! I am **Yueqi Jiang (姜月琦)**, a master's student in Applied Mathematics and
 Computational Science at the University of Pennsylvania. I received my B.S. in
 Mathematics and Applied Mathematics from Beijing Normal University.
 
