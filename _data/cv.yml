@@ -1,189 +1,217 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Yueqi Jiang
+  label: Master's Student in Applied Mathematics and Computational Science
+  email: jiang12@sas.upenn.edu
+  website: https://judy0991.github.io
+  address:
+    city: Philadelphia
+    region: Pennsylvania
+  summary: >
+    Quantitative researcher working at the intersection of biostatistics,
+    causal inference, clinical research, and health data science. Current work
+    focuses on synthetic control methods with missing data, longitudinal
+    clinical data, autism screening, medical imaging, and health AI.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: Judy0991
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Pennsylvania
+        location: Philadelphia, PA
+        area: Applied Mathematics and Computational Science · GPA 3.78/4.00
+        studyType: Master of Arts
+        start_date: 2025
+        end_date: Present
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: Beijing Normal University
+        location: Beijing, China
+        area: Mathematics and Applied Mathematics · GPA 86.61/100
+        studyType: Bachelor of Science
+        start_date: 2020
+        end_date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Selected coursework: Deep Learning (A+), Mathematical Statistics (A), Mathematical Modeling (A+)"
+
+      - institution: University of California, Berkeley
+        location: Berkeley, CA
+        area: Summer Session · GPA 3.85/4.00
+        studyType: Visiting Student
+        start_date: 2024
+        end_date: 2024
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University of Pennsylvania
+        position: Student Researcher · MI-EL Synthetic Control Methodology
+        location: Philadelphia, PA
+        start_date: 2025
+        end_date: Present
+        summary: "Mentor: Prof. Jing Huang"
         highlights:
-          - Relativity
-          - Description 2.
+          - Developed a multiple-imputation empirical-likelihood synthetic-control framework for treatment-effect estimation with missing pre-intervention donor data.
+          - Established theoretical conditions for recovering complete-data synthetic-control weights and evaluated the method through simulations.
+          - Applied the framework to longitudinal EHR data in a kidney-stone treatment study; manuscript in preparation for JAMIA.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Children's Hospital of Philadelphia
+        position: Student Researcher · Autism Diagnosis Project
+        location: Philadelphia, PA
+        start_date: 2026
+        end_date: Present
+        summary: "Mentor: Prof. Jing Huang"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Conducting exploratory analyses of clinical screening data to investigate associations between SWYC measures and ASD diagnosis.
+          - Studying heterogeneity in screening performance and potential patterns of underdiagnosis across patient groups.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Peking University Cancer Hospital & Institute
+        position: Research Assistant · Medical Image Analysis
+        location: Beijing, China
+        start_date: 2024
+        end_date: 2025
+        summary: "Mentor: Dr. Wei Wang"
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Compared 3D ResNet50, FCNN, SVM, random forest, and XGBoost models using MRI radiomics data.
+          - Identified XGBoost with LASSO-based feature selection as the strongest model for cervical-cancer recurrence prediction.
+          - Co-first author on the resulting peer-reviewed publication.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Local Hospital Medical Innovation Research Department
+        position: Research Intern · Virus-Drug Association Prediction
+        start_date: 2024
+        end_date: 2025
+        summary: "Mentor: Dr. Tang Yong"
+        highlights:
+          - Developed an NMFMCVDA model for predicting unknown virus-drug associations using the HDVD dataset.
+          - Achieved 91% predictive accuracy in the project evaluation.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Beijing Normal University
+        position: Student Researcher · Yellow River Basin Water Sustainability
+        location: Beijing, China
+        start_date: 2023
+        end_date: Present
+        summary: "Undergraduate thesis mentor: Prof. Changjia Li"
+        highlights:
+          - Developed a dual-threshold change-point model for blue- and green-water operating boundaries.
+          - Combined R, Prophet, and ArcGIS to analyze historical hydrological data and map sustainable water-use conditions.
+
+      - company: Xibei Restaurant and Beijing Normal University
+        position: Core Member · Prediction and Modeling Group
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - Forecasted dish sales with XGBoost and Prophet to support inventory planning.
+          - Modeled daily production scheduling in MATLAB.
+
+      - company: China Welfare Lottery Technology Development Co., Ltd. and Beijing Normal University
+        position: Team Member · Randomness Testing of Lottery Draws
+        start_date: 2024
+        end_date: 2024
+        highlights:
+          - Applied RNN, LSTM, and 1D CNN models to evaluate sequential randomness and dependence in national lottery draws.
+          - Contributed to the final report delivered to the Ministry of Finance of China.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: An Agentic Framework for Auditable Public Health Policy Communication
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Y. Wen
+          - C. Fan
+          - J. Yu
+          - Y. Feng
+          - Y. Jiang
+          - et al.
+        publisher: Manuscript submitted to Nature Health
+        releaseDate: 2026
+        summary: "Contribution: data annotation and discussion of annotation standards."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Non-Contrast MRI Radiomics Nomogram for Predicting Recurrence and Progression-Free Survival in Cervical Cancer Following Concurrent Chemoradiotherapy
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - W. Wang
+          - X. Li
+          - Y. Jiang
+          - et al.
+        publisher: Current Medical Imaging, 22
+        releaseDate: 2026
+        summary: Co-first author.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Exploring the Application of an Important Inequality
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - G. Zhang
+          - Y. Jiang
+          - J. Gao
+          - H. Wu
+        publisher: Mathematics Communications, 6, 57-63
+        releaseDate: 2019
+
+    Awards:
+      - title: First Prize, China Undergraduate Mathematical Contest in Modeling
+        date: 2022
+        awarder: CUMCM
+        summary: Team leader for modeling and coding; top 0.5% of more than 60,000 teams.
+
+      - title: Outstanding Paper Nomination
+        date: 2022
+        awarder: Shenzhen Cup Mathematical Modeling Challenge
+        summary: Top 16 in the master's-doctoral group.
+
+      - title: Silver Medal
+        date: 2022
+        awarder: International Genetically Engineered Machine Competition
+        summary: Modeling-team member for BNU-China.
+
+      - title: First Prize
+        date: 2022
+        awarder: Beijing Inter-University Mathematical Modeling Competition
+
+      - title: Honors Prize
+        date: 2023
+        awarder: Mathematical Contest in Modeling
+
+      - title: Honors Prize
+        date: 2022
+        awarder: Mathematical Contest in Modeling
+
+      - title: National Bronze Medal
+        date: 2019
+        awarder: Chinese Girls' Mathematical Olympiad
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming and computing
+        keywords:
+          - Python
+          - R
+          - MATLAB
+          - SQL
+          - C
+          - LaTeX
+          - ArcGIS
+
+      - name: Methods
+        keywords:
+          - Causal inference
+          - Machine learning
+          - Longitudinal data analysis
+          - Time-series modeling
+          - Optimization
+          - Medical image analysis
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Chinese
+        summary: Native
 
       - name: English
-        summary: "Fluent"
+        summary: Fluent
+
+      - name: Spanish
+        summary: Conversational
+
+      - name: French
+        summary: Basic
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Outside research
+        keywords:
+          - Running
+          - Football
+          - Cooking
+          - Piano
+          - Volunteering
+          - Beadwork

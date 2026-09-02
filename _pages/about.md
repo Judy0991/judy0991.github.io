@@ -1,34 +1,64 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: M.A. student in Applied Mathematics and Computational Science at the University of Pennsylvania
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: yueqi-jiang.jpg
+  image_alt: Portrait of Yueqi Jiang in San Francisco
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Philadelphia, Pennsylvania</p>
+    <p><a href="mailto:jiang12@sas.upenn.edu">jiang12@sas.upenn.edu</a></p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-My name is Yueqi Jiang, and I am currently a master’s student in Applied Mathematics and Computational Science at the University of Pennsylvania. I received my bachelor’s degree in Mathematics and Applied Mathematics from the School of Mathematical Sciences at Beijing Normal University, where I was advised by Dr. Yingzhe Wang. During my undergraduate studies, my research focused on using mathematical modeling and data science methods to solve real-world problems.
+Hello! I am **Yueqi Jiang**, a master's student in Applied Mathematics and
+Computational Science at the University of Pennsylvania. I received my B.S. in
+Mathematics and Applied Mathematics from Beijing Normal University.
 
-After graduation, I was recommended for admission to the graduate program in Probability and Mathematical Statistics at Beijing Normal University. During this period, I realized that my strongest interest lies in applied mathematics and statistics motivated by practical problems. After discussions with my advisor, I decided to pursue further training in applied mathematics and computational science, which led me to the AMCS program at Penn.
+My research lies at the intersection of **biostatistics, causal inference,
+clinical research, and health data science**. I am especially interested in
+developing statistically principled methods for real-world healthcare data,
+with current work spanning synthetic control methods with missing data,
+longitudinal clinical data, autism screening, medical imaging, and emerging
+applications of AI agents in healthcare.
 
-I am currently working with Dr. Jing Huang as a research trainee. My research interests lie in biostatistics and health data science, especially using tools from mathematics, statistics, and computer science to address problems in healthcare. I am particularly interested in causal inference, statistical methodology, clinical trials, and emerging applications of AI agents in healthcare.
+I currently work with Prof. Jing Huang on methodological and clinical research
+at Penn and the Children's Hospital of Philadelphia. Across my projects, I aim
+to connect rigorous statistical reasoning with questions that matter in
+practice: how to recover credible counterfactuals from incomplete data, how to
+evaluate clinical screening tools, and how to make computational models useful
+and interpretable for healthcare decisions.
+
+<div class="research-focus-grid">
+  <div class="focus-item">
+    <span class="focus-kicker">Methods</span>
+    <h3>Causal inference</h3>
+    <p>Synthetic controls, missing data, empirical likelihood, and real-world evidence.</p>
+  </div>
+  <div class="focus-item">
+    <span class="focus-kicker">Clinical data</span>
+    <h3>Biostatistics</h3>
+    <p>Longitudinal EHR studies, screening data, medical imaging, and risk prediction.</p>
+  </div>
+  <div class="focus-item">
+    <span class="focus-kicker">Emerging work</span>
+    <h3>Health AI</h3>
+    <p>Auditable AI systems, clinical trial design, and interpretable decision support.</p>
+  </div>
+</div>
+
+Outside research, I enjoy running, football, cooking, piano, and making
+miniature beaded desserts. A few of these handmade pieces are collected in my
+[gallery]({{ '/gallery/' | relative_url }}).
